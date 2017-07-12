@@ -101,13 +101,13 @@ nav{
 }
 
 #menu-icon{
-    display:hidden;
+    display:none;
     width:40px;
     height:40px;
 }
 
 #menu-icon img{
-	display:hidden;
+    display:none;
     width:40px;
     height:40px;
 }
@@ -367,6 +367,12 @@ footer a{
 
     #menu-icon{
         display:inline-block;
+    }
+
+    #menu-icon img{
+    display:inline-block;
+    width:40px;
+    height:40px;
     }
     article{
         width:95%; 
